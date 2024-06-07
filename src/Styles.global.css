@@ -1,0 +1,38 @@
+:root{ 
+    --main-color: rgb(17, 14, 61);
+    --dark-color: rgba(6, 4, 42, 0.413);
+    --white-color: #fff;
+    --black-color: #000;
+    --light-color: rgba(107, 100, 211, 0.05);
+    --infos-color: rgba(188, 185, 229, 0.435);
+    --background-color: rgb(3, 2, 30);
+    --pinkish-color: #f3135a;
+    --blueish-color: rgb(95, 243, 236);
+    --horizontal-line: rgba(74, 64, 222, 0.301);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+button::selection,
+p::selection, 
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+li::selection,
+span::selection,
+div::selection,
+strong::selection{
+    color: #fff;
+    background-color: var(--pinkish-color);
+}

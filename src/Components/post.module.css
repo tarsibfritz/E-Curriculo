@@ -1,0 +1,129 @@
+/* PAGE TOP*/
+.main{
+    padding: 2em;
+    border-radius: 0.2em;
+    background-color: var(--main-color);
+}
+
+.main_subtitle{
+    color: var(--infos-color);
+    font-size: 0.9em;
+    margin-left: 4px;
+}
+
+/* ABOUT SECTION */
+.main_about{
+    margin-top: 1.2em;
+    font-size: 14px;
+}
+
+.main_about h2, .main_qualifications h2, .technologies_and_languages h3, .technologies_and_languages h4{
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.hr_style{
+    border: 0;
+    height: 1px;
+    background-color: var(--horizontal-line);
+    margin: 24px 0;
+}
+
+/* QUALIFICATIONS */
+.main_qualifications{
+    margin: 0 0 25px 0;
+}
+
+.main_qualifications ul{
+    list-style: disc;
+    list-style-position: inside;
+    margin: 3px 10px;
+}
+
+.main_qualifications li{
+    margin-top: 4px;
+}
+
+.main_qualifications span{
+    color: var(--infos-color);
+    margin-left: 10px;
+}
+
+/* LANGUAGES AND TECHNOLOGIES */
+.technologies_and_languages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+/* TECHNOLOGIES */
+.technologies{
+    width: 28em;
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: var(--dark-color);
+}
+
+/* LANGUAGES */
+.languages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8em;
+    padding: 1em;
+    border-radius: 0.2em;
+    background-color: var(--dark-color);
+}
+
+.languages_header{
+    align-self: flex-start;
+}
+
+.languages_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.language_circle{
+    width: var(--circle-size, 100px);
+    height: var(--circle-size, 100px);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(var(--circle-size, 100px) / 5);
+    background: conic-gradient(var(--pinkish-color) calc(var(--progresso) * 1%), #e0e0e0 calc(var(--progresso) * 1%));
+}
+
+.language_circle::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--circle-size, 100px) - 12px); 
+    height: calc(var(--circle-size, 100px) - 12px); 
+    border-radius: 50%;
+    background-color: var(--white-color);
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.nivel_text{
+    position: absolute;
+    z-index: 2;
+    color: var(--black-color);
+}
+
+.language_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language_name{
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--white-color);
+}

@@ -33,6 +33,8 @@ export function Post() {
                     insaciável pelo mundo da tecnologia. Estou constantemente buscando novas oportunidades para aplicar e expandir meus 
                     conhecimentos, enquanto contribuo com soluções criativas e inovadoras.
                     </p>
+                    <br/>
+                    <a href='https://github.com/tarsibfritz?tab=repositories'>Link Repositórios</a>
                 </section>
 
                 <hr className={styles.hr_style}/>

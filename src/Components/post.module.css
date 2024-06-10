@@ -23,6 +23,17 @@
     margin-bottom: 10px;
 }
 
+.main_about a{
+    font-weight: 780;
+    text-decoration: none;
+    color: var(--blueish-color);
+}
+
+.main_about a:hover{
+    color: var(--pinkish-color);
+    transition: color 0.3s ease;
+}
+
 .hr_style{
     border: 0;
     height: 1px;

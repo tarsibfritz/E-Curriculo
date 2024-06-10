@@ -34,7 +34,7 @@ export function Post() {
                     conhecimentos, enquanto contribuo com soluções criativas e inovadoras.
                     </p>
                     <br/>
-                    <a href='https://github.com/tarsibfritz?tab=repositories'>Link Repositórios</a>
+                    <a href='https://github.com/tarsibfritz?tab=repositories' target='_blank'>Link Repositórios</a>
                 </section>
 
                 <hr className={styles.hr_style}/>

@@ -65,11 +65,12 @@
 .technologies_and_languages{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 5%;
 }
 
 /* TECHNOLOGIES */
 .technologies{
-    width: 28em;
+    width: 100%;
     padding: 1em;
     border-radius: 0.2em;
     background-color: var(--dark-color);
@@ -80,7 +81,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 8em;
     padding: 1em;
     border-radius: 0.2em;
     background-color: var(--dark-color);
@@ -92,7 +92,9 @@
 
 .languages_container{
     display: flex;
+    align-self: flex-start;
     flex-wrap: wrap;
+    margin-left: 5%;
     gap: 20px;
 }
 

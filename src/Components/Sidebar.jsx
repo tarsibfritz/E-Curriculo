@@ -28,14 +28,16 @@ export function Sidebar(){
                 <hr className={styles.hr_style}/>
 
                 <footer className={styles.footer}>
-                    <h5>Soft Skills</h5>
-                    <ul>
-                        <li>Organização</li>
-                        <li>Planejamento</li>
-                        <li>Comunicação</li>
-                        <li>Adaptabilidade</li>
-                        <li>Aprendizado Continuo</li>
-                    </ul>
+                    <div className={styles.footer_content}>
+                        <h5>Soft Skills</h5>
+                        <ul>
+                            <li>Organização</li>
+                            <li>Planejamento</li>
+                            <li>Comunicação</li>
+                            <li>Adaptabilidade</li>
+                            <li>Aprendizado Continuo</li>
+                        </ul>
+                    </div>
                 </footer>
             </section>
         </aside>
